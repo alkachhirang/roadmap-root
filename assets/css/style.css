@@ -1,5 +1,5 @@
 @import url(./root.css);
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 * {
     padding: 0%;
     margin: 0%;
@@ -13,6 +13,9 @@
 }
 .max-width-992 {
     max-width: 922px;
+}
+.max-width-524 {
+    max-width:524px;
 }
 .mr_10{
     margin-right: 10px;
@@ -188,7 +191,7 @@ label[for="menu_box"] {
     z-index: 1;
 }
 /* Place the timelineContainer to the left */
-.left {
+.left_0 {
     left: 0;
 }
 /* Place the timelineContainer to the right */
@@ -264,8 +267,8 @@ label[for="menu_box"] {
 .left_2 {
     left: 2%;
 }
-.left_86 {
-    left: 86%;
+.left_83 {
+    left: 83%;
 }
 .left_85{
     left: 85%;
@@ -328,11 +331,7 @@ label[for="menu_box"] {
 .accordion-item {
     color: #FFF03F;
     background-color: #FFF03F !important;
-}
-.accordion-flush .accordion-item .accordion-button,
-.accordion-flush .accordion-item .accordion-button.accordion-button.collapsed {
-    border-radius: 10px !important;
-}
+} 
 .accordion-button::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white' %3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
 }
@@ -347,6 +346,7 @@ label[for="menu_box"] {
     background-color: #FFF03F;
     overflow-anchor: none;
     transition: var(--bs-accordion-transition);
+    border-radius: 0% !important;
 }
 .accordion-button {
     background: #FFF03F !important;
