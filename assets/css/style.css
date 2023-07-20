@@ -213,11 +213,8 @@ label[for="menu_box"] {
 .ff_poppins {
     font-family: poppins, sans-serif;
 }
-.fw_700 {
-    font-weight: 700px;
-}
 .fw_400 {
-    font-weight: 400px;
+    font-weight: 400;
 }
 .pt_73 {
     padding-top: 73px;
